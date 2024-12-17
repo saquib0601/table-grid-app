@@ -1,0 +1,63 @@
+.app {
+  display: flex;
+}
+
+.left-panel {
+  width: 20%;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.right-panel {
+  width: 80%;
+  padding: 10px;
+}
+
+.table-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.draggable-table {
+  padding: 10px;
+  margin: 5px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.grid-area {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.table {
+  border: 1px solid #000;
+  background-color: #fff;
+  padding: 10px;
+  position: relative;
+}
+
+.table h3 {
+  margin: 0;
+}
+
+.table .columns {
+  margin-top: 10px;
+}
+
+.table .columns ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.table .columns li {
+  padding: 5px 0;
+}
+
+.table button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
